@@ -1,22 +1,15 @@
-# Project-Response
+# Project-Wolfhound
 ![Logo](https://ctrla1tdel.files.wordpress.com/2020/04/cropped-bigbanner-3.png)
 
-Project response aim is to document simple techniques and processes that can be followed during multiple variations of events. Think of this as a baseline or a think tank rather than a template.  
+Project Wolfhound aims to document simple techniques and processes that can be followed to find threats within your environment. 
+The project is not limited to just identifying threats that are already inside of the network, but also enabling the environment to be able to shine a light on them. 
 
-The project will include scripts which are built to help defender and investigate attacks so that the risk and damage is dampened.
+Often, we focus a lot of time and money in fancy tools that can help prevent future attacks, but what about if they are already inside? 
+Attackers can come straight through the front door, and you could be none the wiser. 
 
-I will also be using this project to develop my skills, so if you think of anything of interest, or wish to help, please do let me know. 
+Most of the time, we focus on the fails, but attackers hide in the successes. A security system with AV, IPS and HIPs is not going to flag if an attacker logs into an external portal using valid credentials (Stolen) and gains access to a system. 
 
+This is why it’s important to run through these exercises, and constantly review how affective your security really is. Most controls can prevent Mimikatz, but what about if those domain admin credentials are in an Excel spreadsheet your IT thought was hidden. 
 
-# Defence Opportunity 
-It's important to understand that you will be attacked at some point, it's more of a matter of when. Breaches do occur so it's important to have as much fondation as possible so that when it does happen, the damage is less or at least contained (As much as possible). 
-
-### Powershell Auditing
-
-
-
-# Attack Simulation 
-
-
-# Response
+##### Coming soon...
 
