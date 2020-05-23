@@ -3,10 +3,9 @@
 ![Powershell](https://ctrla1tdel.files.wordpress.com/2020/04/image-24.png)
 
 “Windows PowerShell is a Windows command-line shell designed especially for system administrators. Windows PowerShell includes an interactive prompt and a scripting environment that can be used independently or in combination.” – Microsoft
- 
- <br/>
- 
-### Attacking With Powershell
+
+
+## Attacking With Powershell
 Powershell is built into Windows, so it makes the perfect tool for living off the land. 
 Below are some of the more well known Powershell scripts/frameworks:
 
@@ -19,9 +18,8 @@ Below are some of the more well known Powershell scripts/frameworks:
 
  Mitre | Att&ck  https://attack.mitre.org/techniques/T1086/
  
- <br/>
  
-### Enabling Auditing
+## Enabling Auditing
 
 By default, the auditing for Windows Powershell is poor. It will tell you when, it's ran and closed but not what. For this information, we need to enable a few settings. This can be done via group policy or by settings the registry key.  
 
@@ -31,9 +29,9 @@ For Group Policy, they can be found under: Administrative Templates > Windows Co
  Script Block Logging (Win-Event ID 4104,4105,4106) (Not execution as too much noise)  
  Transcription (Default location: $Home\My Documents directory as \PowerShell_transcript.<time-stamp>.txt)
  
- <br/>
+
  
-### Monitoring
+## Monitoring
 
 Once auditing is enabled, you can start to query the logs generated. Forwarding to a SIEM makes life easier, and allows you to filter through the logs. If you run an AV with ADC capability or custom rules for applications, you should look to enable these as well. Common traits to track for process creation of Powershell: 
 
@@ -48,9 +46,9 @@ Once auditing is enabled, you can start to query the logs generated. Forwarding 
 
 More: https://securethelogs.com/2020/05/12/living-off-the-land-suspicious-system32/
  
- <br/>
+
  
-### Validating
+## Validating
 
 BlueChecker is a script which can help identify the level of auditing on your host.  
 https://github.com/securethelogs/Bluechecker
@@ -59,9 +57,9 @@ Once you've ran the script, or run the below command, Bluechecker will query the
 
 *powershell –nop –c “iex(New-Object Net.WebClient).DownloadString(‘https://raw.githubusercontent.com/securethelogs/Bluechecker/master/BlueChecker.ps1’)”*
  
- <br/>
+
  
-### Useful References
+## Useful References
 
 Securethelogs: https://securethelogs.com/hacking-with-powershell-blue-team/  
 Fireeye: https://www.fireeye.com/blog/threat-research/2016/02/greater_visibilityt.html   
