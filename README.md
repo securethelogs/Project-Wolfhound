@@ -14,5 +14,5 @@ This is why it’s important to run through these exercises, and constantly revi
 ## Discovery
 This section we will work on enabling auditing and help identify what is already out there. 
 
-### [Auditing Powershell](Discovery/Powershell_Audit.md)
-### [Email Enumeration](Discovery/Email_Enumeration.md)
+#### [Auditing Powershell](Discovery/Powershell_Audit.md)
+#### [Email Enumeration](Discovery/Email_Enumeration.md)
