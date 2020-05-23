@@ -11,5 +11,8 @@ Most of the time, we focus on the fails, but attackers hide in the successes. A 
 
 This is why it’s important to run through these exercises, and constantly review how affective your security really is. Most controls can prevent Mimikatz, but what about if those domain admin credentials are in an Excel spreadsheet your IT thought was hidden. 
 
-##### Coming soon...
+## Discovery
+This section we will work on enabling auditing and help identify what is already out there. 
 
+### [Auditing Powershell](Discovery/Powershell_Audit.md)
+### [Email Enumeration](Discovery/Email_Enumeration.md)
