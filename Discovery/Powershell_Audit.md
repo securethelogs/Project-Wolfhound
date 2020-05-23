@@ -1,5 +1,7 @@
 # Powershell Auditing
 
+![Powershell](https://ctrla1tdel.files.wordpress.com/2020/04/image-24.png)
+
 “Windows PowerShell is a Windows command-line shell designed especially for system administrators. Windows PowerShell includes an interactive prompt and a scripting environment that can be used independently or in combination.” – Microsoft
  
  <br/>
