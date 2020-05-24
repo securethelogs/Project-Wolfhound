@@ -64,9 +64,16 @@ In line 109, replace 'admin' with your domain. Snippet: *if ($contenturl -like "
 
 Google Dork (replace password with keyword): *“site:pastebin.com" password
 
+Ghostbin.co is another well known site hosting breaches as pastes. 
 
 
-## in progress
+## Open Source Tools
+Github is full of open source scripts that can help you identfiy your digital footprint. Scripts such as SimplyEmail and The Harvester:
+
+http://simplysecurity.github.io/SimplyEmail/  
+https://github.com/laramies/theHarvester
+
+Taking the time to use these tools, will give you great reward. These scripts are used by both sides of the ponds so if you're not using them, they are. 
 
 
 
