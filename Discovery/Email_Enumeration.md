@@ -68,13 +68,27 @@ Ghostbin.co is another well known site hosting breaches as pastes.
 
 
 ## Open Source Tools
-Github is full of open source scripts that can help you identfiy your digital footprint. Scripts such as SimplyEmail and The Harvester:
+Github is full of open source scripts that can help you identfiy your digital footprint. Scripts such as SimplyEmail, The Harvester or Prowl:
 
 http://simplysecurity.github.io/SimplyEmail/  
 https://github.com/laramies/theHarvester
+https://github.com/nettitude/Prowl
 
 Taking the time to use these tools, will give you great reward. These scripts are used by both sides of the ponds so if you're not using them, they are. 
 
+
+##  Monitoring
+Keeping track of how your users share their email address may be impossible but putting inplace a process to check using the above techniques may help. One thing you can monitor are breaches. This is where the, HaveIbeenpwned service becomes useful. It has Domain searches and monitoring so that you can get alerts if present within a breach. 
+
+https://haveibeenpwned.com/DomainSearch
+
+There are also paid services out there that will do similar and more, however, most you can do yourselves if you train within. These skillsets include searching the darknet. If your hesitant to explore the dark and deep web yourself, you can use tools such as Spiderfoot to do it for you. SpiderFoot is an OSINT tool which includes a deep web crawler. 
+
+https://www.spiderfoot.net/
+
+To learn more: https://securethelogs.com/2019/08/02/using-open-source-intelligence-osint/  
+
+Another source is your users themselves. Having a culture where users are scared to highlight if they have been phished, isn't good for anyone. You want your users to be your eyes and ears, and be able to approach you if something weird or unusual has occurred. Having someone mention that they are getting reports that they sent emails, when they say they didn't, could indicate a breach. Having them on your side helps identify these types of threats without any addtional cost to infrastructure. 
 
 
 
